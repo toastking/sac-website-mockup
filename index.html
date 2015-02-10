@@ -3,15 +3,24 @@
 
 <head>
 <meta charset="utf-8">
+<!-- meta tags for responsive components -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stony Brook University - Student Affairs</title>
+
+<!--Jquery -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 
 <!-- Bootstrap files -->
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-<script type="text/javascript" src="bower_components/bootstrap/dist/css/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 
 <!-- main stylesheet -->
 <link rel="stylesheet" href="stylesheets/main.css">
+<link rel="stylesheet" href="stylesheets/search.css">
 </head>
 
 <body>
@@ -20,7 +29,7 @@
 		<div class = "row">
 			<div class = "col-xs-6 col-md-8"></div> <!-- empty div used to space the search button -->
 			<div class="col-xs-6 col-md-4">
-			<button class = "btn btn-default btn-md" id="searchButton"> <!--search button -->
+			<button type="button" class = "btn btn-default btn-sm" id="searchButton"> <!--search button -->
 				<span class = "glyphicon glyphicon-search" aria-hidden = "true">Search</span>
 			</button>
 			</div>
@@ -28,6 +37,82 @@
 		<div class = "row">
 			<img src = "assets/header.jpg" class = "img-responsive">
 		</div>
+		<div class="row">
+		<!--the main menu bar -->
+		<nav class = "navbar navbar-default">
+			<div class="container-fluid"> <!-- fluid responsive container that fills the row -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							About Us <span class = "caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Vision</a></li>
+							<li><a href="#">News & Updates</a></li>
+							<li><a href="#">Directions</a></li>
+							<li><a href="#">Staff Portal</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							 Facilities<span class = "caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Meeting Rooms</a></li>
+							<li><a href="#">Programming Venues</a></li>
+							<li><a href="#">Lobbies & Lounges</a></li>
+							<li><a href="#">Office Directory</a></li>
+							<li><a href="#">Sustainability</a></li>
+						</ul>
+					</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							 Services<span class = "caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Reservations</a></li>
+							<li><a href="#">Audio/Visual</a></li>
+							<li><a href="#">Forms</a></li>
+							<li><a href="#">Campus Dining</a></li>
+						</ul>
+					</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							 Student Life<span class = "caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Dean of Students</a></li>
+							<li><a href="#">Student Activities</a></li>
+							<li><a href="#">Student Office Space</a></li>
+							<li><a href="#">Graduate Student Org.</a></li>
+							<li><a href="#">Undergrad Student Govt.</a></li>
+						</ul>
+					</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							 Policies<span class = "caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Food & Catering</a></li>
+							<li><a href="#">Revocable Permits</a></li>
+							<li><a href="#">Event Timelines</a></li>
+							<li><a href="#">Cancellations</a></li>
+						</ul>
+					</li>
+					<li>
+						<button type="button" class="btn btn-warning navbar-btn"><span class="glyphicon glyphicon-star"></span>Make a Reservation</button>
+					</li>
+					
+				</ul>
+				</div>
+			</div>
+		</nav>
+		 </div>
 	</header>
 	
 	
