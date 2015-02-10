@@ -1,0 +1,13 @@
+#main{
+    width: 80%;
+    background-color: #ffffff;
+     -moz-box-shadow: 8px 1px 25px rgba(0, 28, 55, 0.4);
+    -webkit-box-shadow: 8px 1px 25px rgba(0, 28, 55, 0.4);
+    box-shadow: 8px 1px 25px rgba(0, 28, 55, 0.4);
+    margin-left: auto;
+    margin-right:auto;
+}
+
+body{
+    background-color: #cccccc;
+}

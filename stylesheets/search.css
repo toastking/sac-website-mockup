@@ -1,0 +1,4 @@
+#searchButton{
+       float: right; /*align the button right*/
+       padding-right: 20px;
+}
