@@ -30,15 +30,15 @@
 		 <!-- offset used to space the search button -->
 			<div class=" col-xs-offset-6 col-md-offset-8 col-xs-6 col-md-4">
 			<button type="button" class = "btn btn-default btn-sm" id="searchButton"> <!--search button -->
-				<span class = "glyphicon glyphicon-search" aria-hidden = "true">Search</span>
+				<span class = "glyphicon glyphicon-search" aria-hidden = "true"></span> Search
 			</button>
 			</div>
 		</div>
-			<img src = "assets/header.jpg" class = "img-responsive">
+			<img src = "assets/header.jpg" class = "img-responsive" alt="the header image for the website, shows the stony brook university logo">
 		<!--the main menu bar -->
 		<nav class = "navbar navbar-default">
 			<div class="container-fluid"> <!-- fluid responsive container that fills the row -->
-			<div class="collapse navbar-collapse">
+
 				<ul class="nav navbar-nav">
 					<li>
 						<a href="">Home</a>
@@ -102,15 +102,21 @@
 						</ul>
 					</li>
 					<li>
-						<button type="button" class="btn btn-warning navbar-btn"><span class="glyphicon glyphicon-star"></span>Make a Reservation</button>
+						<form class="navbar-form navbar-right">
+						<button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-star"></span>Make a Reservation</button>
+					</form>
 					</li>
 				</ul>
 				</div>
-			</div>
+
 		</nav>
 
 	</header>
 
+
+
+	<div id="row">
+		<div class="col-md-7 col-centered hidden-xs hidden-sm">
 		<!-- the carousel to display content -->
 		<div id="main-carousel" class="carousel slide" data-ride="carousel"> <!-- data-ride is used to automatically cycle the carousell -->
 			
@@ -125,14 +131,14 @@
 			
 			<!--div wrappers for the slides -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item-active">
+				<div class="item active">
 					<img src="assets/for_banner.jpg" alt = "Banner for Facilities and Operations">
 				</div>
 				<div class="item">
 						<img src="assets/Facilities.jpg" alt = "Image showing the facilites sections of the site">
 				</div>
 				<div class="item">
-						<img src="assets/FaceRes.jpg" alt = "Image for the Facilities Reservations office">
+						<img src="assets/FacRes.jpg" alt = "Image for the Facilities Reservations office">
 				</div>
 			
 				<div class="item">
@@ -152,10 +158,34 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  
   </div>
+  </div>
+  </div>
+  <!-- the two bottom rows of articles -->
+  <div class = "row">
+  	<div class="col-xs-12 col-md-6">
+  		<section class = "panel panel-default">
+  		<div class = "panel-heading"><h3 class= "panel-title">News and Updates</h3></div>
+			<p class= "panel-body">
+				Events Postponed - Monday, February 2nd, 2015
+Out of an abundance of caution and in consideration of the hazardous road conditions expected this afternoon and evening, all Student Activities Center and SB Union events scheduled for today, Monday, February 2nd, 2015 have been postponed. Please check back with your event organizer for any further details. 
 
-	</div>
+SAC & SB Union Back To Scheduled Programming
+Now that winter storm Juno has passed, we are glad to announce that the SAC and SB Union will resume regular operating hours and programming schedule on Wednesday, January 28, 2015.  Thus, we invite all to the 2015 Black History Month Opening Ceremony held on Wednesday, January 28th at 12:00pm in the SAC Auditorium. Please help us to celebrate the heritage of Black people in America, as well as internationally.
+
+</p>
+</section>
+			</div>
+  	<div class="col-xs-12 col-md-6">
+  		  		<section class = "panel panel-default">
+  		<div class = "panel-heading"><h3 class= "panel-title">Featured Events</h3></div>
+			<p class= "panel-body">
+
+</p>
+</section>
+  	</div>
+  </div>
+</div>
 
 
 </body>

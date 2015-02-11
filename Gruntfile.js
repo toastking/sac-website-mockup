@@ -16,14 +16,10 @@ module.exports = function(grunt) {
     options: {
         reset: grunt.option('reset') || false,
         stoponerror: false,
-        remoteFiles: ['index.html'], //or 
         relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'] //ignores these errors 
     },
     files: {
-        src: ['<%= yeoman.app %>/*.html',
-              '!<%= yeoman.app %>/index.html',
-              '!<%= yeoman.app %>/modules.html',
-              '!<%= yeoman.app %>/404.html']
+        src: ['index.html']
     }
 },
 bootlint: {
@@ -40,8 +36,6 @@ bootlint: {
   grunt.loadNpmTasks('grunt-bootlint');
 
   // Default task(s).
-  grunt.registerTask('default', ['validation']);
-  grunt.registerTask('default', ['bootlint']);
-  
+  grunt.registerTask('default', ['validation','bootlint']);
 
 };
