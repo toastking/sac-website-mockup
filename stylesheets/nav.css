@@ -20,6 +20,11 @@
   background-color: #990000;
 }
 
+.navbar-default .navbar-nav > li{
+ padding-left:10px;
+ padding-right:10px;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
 }
