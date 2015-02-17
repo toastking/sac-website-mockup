@@ -3,8 +3,15 @@ body{
     background-color: #cccccc;
 }
 
+header{
+    margin-left:0px;    
+    margin-right:0px;
+    padding-left:0px;    
+    padding-right:0px;
+}
+
 #main{
-    width: 70%;
+    width: 80%;
     background-color: #ffffff;
      -moz-box-shadow: 8px 1px 25px rgba(0, 28, 55, 0.4);
     -webkit-box-shadow: 8px 1px 25px rgba(0, 28, 55, 0.4);
@@ -23,3 +30,35 @@ body{
     margin-right:auto;
     margin-bottom: 15px;
 }
+
+#footer1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background:#000000;
+    color:#ffffff;
+}
+
+#footer2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #cccccc;
+}
+
+#footer1 > section >  a:link{
+    color: #ffffff;
+    text-decoration: none;
+    text-align:center;
+}
+
+#footer1 > section > a:hover{
+    color:#ffffff;
+    text-align:center;
+    text-decoration: underline;
+}
+
+
+/*edit the position of the carousel indicators */
+.carousel-indicators {
+  bottom: 5px;
+}
+

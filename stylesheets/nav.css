@@ -80,6 +80,17 @@
   background-color:#202020;
 }
 
+/* style the buttons as well */
+.btn-reservation{
+  color:#ffffff;
+  background-color: #BD5C5C;
+}
+
+.btn-reservation:hover{
+  color:#ffffff;
+  background-color: #A31919;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
