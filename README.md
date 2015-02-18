@@ -35,4 +35,18 @@ Will make a row, and then two columns.  On a mobile device ("sm") the columns wi
 
 The ".main" *<div>* of the website is a [container](http://getbootstrap.com/css/#overview-container).  The *container* that surrounds all our content allows it to be responsive, it allows it to scale with different screen sizes.  The ".main" css has *margin-left:auto* and *margin-right:auto*, this centers the main content.  It also uses [relative sizing](http://www.w3schools.com/cssref/css_units.asp), **ex:** *width: 80%* , this also allows the content to change it's size relative to the screen the user is using to view the website.
 
-### What is Jquery?
+### What is jQuery?
+[jQuery](http://jquery.com/) is a Javascript library for manipulating the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) (Document Object Model).  The DOM is how an HTML document is organized.  Using jQuery you can pull out html elements and change their properties.  jQuery can also be [event-based](https://en.wikipedia.org/wiki/Event-driven_programming), firing off code when a user interface component is manpulated.  To start a jQuery code you need to do the following in the *<head>* of a web page:
+
+    <script>
+    $( document ).ready(function(){
+        console.log("Hello World);
+    });
+    </script>
+    
+*$( document ).ready()* runs code as soon as the webpage is able to be manipulated.  
+
+To select and element from the HTML document use **$()**.  For example, you can select all *<a>* tags with **$("a")**.
+Or all elements with the class *hello* with **$(".hello")**
+Or all elements with the id of *bye* with **$("#bye")**.
+Basically, any [css selector](http://www.w3schools.com/cssref/css_selectors.asp) will work to select a DOM element with jQuery.
