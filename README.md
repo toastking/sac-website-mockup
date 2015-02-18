@@ -50,3 +50,7 @@ To select and element from the HTML document use **$()**.  For example, you can 
 Or all elements with the class *hello* with **$(".hello")**
 Or all elements with the id of *bye* with **$("#bye")**.
 Basically, any [css selector](http://www.w3schools.com/cssref/css_selectors.asp) will work to select a DOM element with jQuery.
+
+
+### What is jQueryUI?
+[jQueryUI](http://jqueryui.com/) is how some of the cool menus on the website were made. We used the Accordion menu, along with a custom stylesheet.  The directory page uses and AutoComplete searchbox.  
