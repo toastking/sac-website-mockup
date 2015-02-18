@@ -1,8 +1,10 @@
+/* stylesheet that overrides the default boostrap theme */
+
 .navbar-default {
   background: #990000;
   border-color: #990000;
   border-radius: 0px;
-  margin-left: 0px;
+  margin-left: 0px; /*remove the margins so it looks like the student affairs website */
   margin-right: 0px;
   padding: 0px;
 }
@@ -20,6 +22,7 @@
   background-color: #990000;
 }
 
+/*seperation between the items in the navbar */
 .navbar-default .navbar-nav > li{
  padding-left:10px;
  padding-right:10px;
@@ -34,9 +37,10 @@
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #202020;
-  opacity: .9;
+  opacity: .9; /* decrease the opacity so it looks like student affairs website */
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  left: 10px; /* position the navbar directly under the menue item */
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #ecf0f1;
